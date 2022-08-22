@@ -14,13 +14,15 @@ body{
   width: 600px;
   height: 450px;
   display: flex;
+  justify-content: flex-start;
   border-radius:  8px;
   overflow: hidden;
 
 }
 .info{
+  width: 100%;
   background-color: hsl(0, 0%, 100%); 
-  padding: 25px;
+  padding: 30px;
 }
 .Type{
   color: hsl(228, 12%, 48%);
@@ -28,21 +30,21 @@ body{
   text-transform: uppercase;
   font-size:  14px;
   margin-bottom: 15;
-margin-left: auto;
+  
 }
 .Title{
   color: hsl(212, 21%, 14%);
   font-family: 'Fraunces', serif;  
-  line-height: 2rem;
-  font-size: xx-large;
+  line-height: 2.1rem;
+  font-size: 2.2rem;
   text-transform: capitalize;
-  margin: 15px 10px 15px auto;
+  margin: 15px auto;
 }
 .about{
   color: hsl(228, 12%, 48%);
   font-size:  14px;
   line-height: 1.5rem;
-  margin: 20px 10px 20px auto;
+  margin: 20px auto;
 }
 .price{
   display: flex;
@@ -69,7 +71,6 @@ button{
   border-radius: 10px;
   height: 50px;
   font-weight: bold;
-  margin-right: auto;
   margin-top: 30px;
   border: none;
   display: flex;
@@ -77,21 +78,15 @@ button{
   justify-content: center;
   width: 100%;
 }
-button::before{
-  content: url("icon-cart.svg");
-  width: 12px;
-  height: 12px;
-  display: inline-block;
-  margin-bottom: 5px;
-  margin-right: 10px;
-  color: hsl(0, 0%, 100%); 
-}
+
 button:hover{
   cursor: pointer;
   background-color: hsl(158, 36%, 20%);;
 }
-
-img{
+.image{
+  width: 100%;
+}
+.desk{
   display: block;
   width: 100%;
   height: 100%;
@@ -99,26 +94,32 @@ img{
 }
 @media (min-width: 375px) and (max-width: 1439px){
 
-    .info{
-      padding: 18px;
-    }
-    .Type,.Title{
-      margin: 5px;
-    }
-    .curr-price,.old-price{
-      margin: 10px;
-    }
+  
   .card{
     width: 350px;
     height: 650px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     border-radius:  10px;
     overflow: hidden;
   
   }
-  img{
-    content: url("image-product-mobile.jpg");
+  button{
+    margin: 15px auto;
+  }
+  .info{
+    
+    padding-left: 30px;
+  }
+  .desk{
+    display: none;
+  }
+  .mob{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
 }
