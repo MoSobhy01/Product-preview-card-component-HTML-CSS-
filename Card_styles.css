@@ -36,7 +36,7 @@ margin-left: auto;
   line-height: 2rem;
   font-size: xx-large;
   text-transform: capitalize;
-  margin: 15px auto;
+  margin: 15px 10px 15px auto;
 }
 .about{
   color: hsl(228, 12%, 48%);
