@@ -45,7 +45,7 @@ Users should be able to:
 ## Author
 
 - Website - [Mahmoud Sobhy](https://www.https://github.com/MoSobhy01)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/MoSobhy01)
+- Frontend Mentor - [@MoSobhy01](https://www.frontendmentor.io/profile/MoSobhy01)
 
 
 
