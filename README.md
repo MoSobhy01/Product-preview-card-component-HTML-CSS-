@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo]([https://your-solution-url.com](https://github.com/MoSobhy01/Product-preview-card-component-HTML-CSS-))
-- Live Site URL: [Product Card]([https://your-live-site-url.com](https://mosobhy01.github.io/Product-preview-card-component-HTML-CSS-/))
+- Solution URL: [GitHub Repo](https://your-solution-url.com](https://github.com/MoSobhy01/Product-preview-card-component-HTML-CSS-)
+- Live Site URL: [Product Card](https://your-live-site-url.com](https://mosobhy01.github.io/Product-preview-card-component-HTML-CSS-)
 
 ## My process
 
